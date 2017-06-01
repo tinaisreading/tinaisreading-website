@@ -48,6 +48,7 @@ h1 {
   font-size: 1.75em;
   font-weight:normal; 
   line-height: 0.8em; 
+  text-shadow: -1px -1px 5px #0f5875; 
 }
 
 h2 {
@@ -55,6 +56,7 @@ h2 {
   font-size: 1.25em;
   margin: -5px 0 0;
   font-weight: normal;
+  text-shadow: -1px -1px 5px #0f5875;
 }
 
 
@@ -67,6 +69,7 @@ nav {
   text-align: center;
   padding: 10px 0; 
   margin: 20px 0 0;
+  text-shadow: -1px -1px 5px #0f5875;
 }
 
 nav ul {
@@ -127,6 +130,7 @@ PAGE: PORTFOLIO
   background-color: #a3b8c1;
   border: 2px solid #a3b8c1;
   color: #000;
+  box-shadow: 1px 1px 5px 2px #222;
 }
 
 #gallery li a p {
@@ -148,8 +152,9 @@ PAGE: ABOUT
   display: block;
   max-width: 275px;
   margin: 0 auto 30px;
-  /*border-radius: 65px; */
-  border: 4px solid #a3b8c1; 
+  border-radius: 50px 10px; 
+  border: 4px solid #a3b8c1;
+  box-shadow: 1px 1px 5px 2px #222; 
 }
 
 #about p {
@@ -219,7 +224,11 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b; 
+  color: #0f5875; 
+}
+
+a:hover {
+  color: #14e3d6; 
 }
 
 /* nav link */
@@ -237,5 +246,7 @@ nav a:hover {
   color: #0f5875;
 }
 
-
+#gallery li a p:hover {
+  color: #0f5875;
+}
 
